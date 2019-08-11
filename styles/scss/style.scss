@@ -10,6 +10,7 @@ body {
 //    max-width: 1980px;
     width: 1920px;
 //    padding: 0 calc((100%-1200px)/2);
+    font-family: $font-poppins
 }
 
 //BEM's blocks import
@@ -17,3 +18,4 @@ body {
 @import 'blocks/mainNav';
 @import 'blocks/header';
 @import 'blocks/main';
+@import 'blocks/button';

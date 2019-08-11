@@ -1,0 +1,23 @@
+.b-button {
+    padding: 0;
+    display: inline-block;
+    font: 16px $font-poppins;
+    font-size: 16px;
+    line-height: 50px;
+    width: 180px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    color: $white;
+    background: $red;
+
+    &_noLeftRadius {
+        border-radius: 0 25px 25px 0;
+    }
+
+    &_w190 {
+        width: 190px;
+    }
+}
