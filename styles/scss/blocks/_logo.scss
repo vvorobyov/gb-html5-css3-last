@@ -1,0 +1,16 @@
+.b-logo {
+    font-family: $font-wisdom;
+    color: $regular-gray;
+
+    &::first-letter {
+        color: $red;  
+    }
+
+    &_size35px {
+        font-size: 35px;
+    }
+
+    &_size50px {
+        font-size: 50px;
+    }
+}
