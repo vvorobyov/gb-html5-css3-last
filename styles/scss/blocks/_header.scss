@@ -1,0 +1,10 @@
+.b-header{
+    height: 75px;
+    padding: 0 390px;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+        margin: auto 0;
+    }
+}

@@ -5,8 +5,11 @@
 //Bootstrap's import
 @import '../../packages/bootstrap-4.3.1/scss/bootstrap-grid.scss';
 
-
+body {
+    width: 1980px;
+}
 
 //BEM's blocks import
 @import 'blocks/logo';
 @import 'blocks/mainNav';
+@import 'blocks/header';
