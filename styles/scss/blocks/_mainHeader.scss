@@ -1,0 +1,15 @@
+.b-mainHeader {
+    text-align: center;
+
+    &__h1 {
+        width: 820px;
+        font: 400 60px $font-baskerville;
+        color: $white;
+        margin: 0 0 50px;
+    }
+
+    &__advantage {
+        margin-top: 85px;
+        margin-left: 25px;
+    }
+}
