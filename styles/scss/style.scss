@@ -2,8 +2,11 @@
 @import 'variables';
 
 
+//Bootstrap's import
+@import '../../packages/bootstrap-4.3.1/scss/bootstrap-grid.scss';
 
 
 
-
+//BEM's blocks import
 @import 'blocks/logo';
+@import 'blocks/mainNav';

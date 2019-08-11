@@ -1,0 +1,24 @@
+.b-mainNav{
+    font-family: $font-poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: $article-head1;
+
+    &__itemWrap {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+    }
+
+    &__item {
+        padding-left: 22px;
+        &:first-of-type {
+            padding-left: 0;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        color: $article-head1;
+    }
+}
