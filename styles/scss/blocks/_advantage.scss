@@ -3,7 +3,7 @@
     margin: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     &__item {
         text-align: center;
@@ -27,5 +27,7 @@
 
     &__desc {
         text-transform: uppercase;
+        font-weight: 500;
+        margin-top: 25px;
     }
 }
