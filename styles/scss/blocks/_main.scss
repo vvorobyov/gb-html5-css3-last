@@ -1,0 +1,25 @@
+.b-main {
+    &__header {
+        box-sizing: border-box;
+        padding: 175px 550px;
+        background-color: $bg-gray;        
+    }
+
+    &__section {
+
+        &:nth-of-type(odd) {
+            background: $bg-odd;
+        }
+        &:nth-of-type(even) {
+            background: $bg-even;
+        }   
+        
+        &_dark {
+            background: $bg-gray !important;
+        }
+
+        &_lightGray {
+            background: $bg-sect-last !important;
+        }
+    }
+}
